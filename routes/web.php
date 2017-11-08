@@ -26,3 +26,5 @@ Route::get('/contact', function(){
 Route::get('/docs', function(){
     return view('welcome');
 });
+
+Route::post('/contact/submit', 'MessagesController@submit');
