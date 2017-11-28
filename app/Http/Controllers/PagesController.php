@@ -10,6 +10,10 @@ class PagesController extends Controller
         return view('home');
     }
 
+    public function getRegister(){
+        return view('register');
+    }
+
     public function getAbout(){
         return view('about');
     }
